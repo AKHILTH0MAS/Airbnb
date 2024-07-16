@@ -17,7 +17,7 @@ h2 {
   list-style-type: none;
 }
 .mobile-nav-search {
-  padding: 14px 24px 0;
+  padding: 14px 24px 10px;
   box-sizing: border-box;
   position: fixed;
   top: 0;
@@ -77,6 +77,8 @@ h2 {
   gap: 16px;
   box-shadow: 0 3px 10px rgba(0 0 0 / 0.1);
   overflow-y: hidden;
+  max-width: calc(100vw - 0.01px);
+
 }
 .sticy-nav {
   position: fixed;
@@ -404,7 +406,7 @@ h2 {
     display: flex;
   }
   .des-nav-search {
-    padding: 0 40px;
+    padding: 0 40px 2px;
     width: 100%;
     box-sizing: border-box;
     padding-bottom: 30px;

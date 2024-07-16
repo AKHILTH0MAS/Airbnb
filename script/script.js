@@ -8,7 +8,7 @@ window.addEventListener("scroll", function(){
     if(scrollPosition>200 && window.innerWidth >= 744){
         nav1.style.display= "none";
         nav2.style.display="block";
-        paddingbottom.style.paddingBottom= "0";
+        paddingbottom.style.paddingBottom= "2px";
         stickyNav.style.position= "sticky";
         stickyNav.style.top= "80px";
         corousal_section.style.marginTop= "340px";
