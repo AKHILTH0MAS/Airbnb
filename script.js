@@ -37,14 +37,14 @@ window.addEventListener("scroll", function(){
         corousal_section.style.marginTop= "230px";
 
     }
-    if(scrollPosition>50 && window.innerWidth >= 1440){
+    if(scrollPosition>30 && window.innerWidth >= 1440){
         nav1.style.display= "none";
         nav2.style.display="flex";
         stickyNav.style.position= "fixed";
         stickyNav.style.top= "0px";
         paddingbottom.style.paddingBottom= "30px";
 
-    } else if(scrollPosition<=200 && window.innerWidth >= 1440){
+    } else if(scrollPosition<=30 && window.innerWidth >= 1440){
         nav1.style.display= "block";
         nav2.style.display="none";
         stickyNav.style.position= "fixed";
@@ -67,3 +67,6 @@ window.addEventListener("DOMContentLoaded", function(){
         nav2.style.maxWidth="310px";
     }
 })
+
+
+mac-maxWidth

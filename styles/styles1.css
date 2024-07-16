@@ -771,7 +771,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
   .footer-maxwidth {
-    max-width: 60%;
+    max-width: 65%;
     box-sizing: border-box;
     margin: 0 auto;
   }
