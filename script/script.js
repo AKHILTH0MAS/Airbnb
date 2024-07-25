@@ -11,7 +11,7 @@ window.addEventListener("scroll", function(){
         paddingbottom.style.paddingBottom= "2px";
         stickyNav.style.position= "sticky";
         stickyNav.style.top= "80px";
-        corousal_section.style.marginTop= "340px";
+        corousal_section.style.marginTop= "346px";
     
     }
     else if(scrollPosition<=200 && window.innerWidth >= 744){
@@ -64,9 +64,6 @@ window.addEventListener("resize", function(){
 window.addEventListener("DOMContentLoaded", function(){
     let nav2 = document.getElementById("transformed-nav");
     if(window.innerWidth >= 744 && window.innerWidth <= 780){
-        nav2.style.maxWidth="310px";
+        nav2.style.maxWidth="298px";
     }
 })
-
-
-mac-maxWidth
