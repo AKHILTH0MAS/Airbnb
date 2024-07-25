@@ -17,7 +17,7 @@ h2 {
   list-style-type: none;
 }
 .mobile-nav-search {
-  padding: 14px 24px 10px;
+  padding: 14px 16px 10px;
   box-sizing: border-box;
   position: fixed;
   top: 0;
@@ -39,11 +39,16 @@ h2 {
   padding: 1px 4px;
   box-sizing: border-box;
 }
-.search-icon {
-  width: 52px;
+.search-icon{
+  width: 42px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.search-icon img{
+  width: 20px;
+  height: 20px;
+
 }
 .search-texts-title {
   font-size: 14px;
@@ -106,6 +111,9 @@ h2 {
   padding: 4px 0;
   margin: 12px 0 10px;
 }
+.item-img{
+  height: 28px;
+}
 .item-img img {
   width: 24px;
   height: 24px;
@@ -143,6 +151,29 @@ h2 {
   justify-content: center;
   background: #feffffad;
   border-radius: 50%;
+}
+.upload-button img{
+  height: 16px !important;
+  width: 16px !important;
+
+}
+.live-button{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 59px;
+  height: 32px;
+  background: #feffffc2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+
+}
+.live-button span{
+  font-size: 14px;
+  font-weight: 600;
+
 }
 .corousal-item-img img {
   width: 100%;
@@ -281,6 +312,14 @@ h2 {
   line-height: 18px;
   color: rgb(34, 34, 34);
 }
+.footer-grid-item-title span{
+  display: inline-flex;
+  align-items: center;
+}
+.footer-grid-item-title span img{
+  width: 12px;
+  height: 12px;
+}
 .footer-grid-item-subtitle {
   font-weight: 400;
   font-size: 14px;
@@ -331,12 +370,12 @@ h2 {
 .con-row-1 {
   display: flex;
   align-items: center;
-  margin-bottom: 22px;
+  margin-bottom: 23px;
 }
 .lang {
   display: flex;
   margin-right: 24px;
-  gap: 3px;
+
   align-items: center;
   font-size: 14px;
   font-weight: 500;
@@ -344,11 +383,18 @@ h2 {
 }
 .lang span {
   margin-right: 5px;
+  font-size: 16px;
+}
+.globe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px !important;
 }
 .con-row-2 {
   font-size: 14px;
   line-height: 18px;
-  margin-bottom: 2px;
+  margin-bottom: 4px;
   font-weight: 400;
 }
 .con-row-3 {
@@ -357,17 +403,29 @@ h2 {
 .con-row-3 ul {
   display: flex;
   align-items: end;
+ flex-wrap: wrap;
+  column-gap: 8px;
+
+}
+.con-row-3 ul li{
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
-  gap: 8px;
-  height: 28px;
+  text-wrap: nowrap;
 }
 .social-icons {
   display: none;
 }
 .two {
   display: none;
+}
+@media screen and (min-width: 375px) {
+  .mobile-nav-search{
+    padding: 14px 24px 10px;
+  }
+  .search-icon{
+    width: 52px;
+  }
 }
 @media screen and (min-width: 550px) {
   .corousal-section-grid {
